@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--primary-background-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--primary-color-text);
+    font-family: var(--global-font-family);
+    transition: background-color 0.5s ease-in-out, filter 0.5s ease-in-out,
+      color 0.5s ease-in-out;
+  }
+  
+  .light {
+    background-color: var(--secundary-background-color);
+    color: var(--secundary-color-text);
+  }
+  
+  main {
+    margin-top: 70px;
+    padding: var(--global-padding);
+    min-height: 80vh;
+  }

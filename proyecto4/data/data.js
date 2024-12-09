@@ -79,6 +79,19 @@ const data = {
         ],
     },
 
+    proyects: {
+        first_proyect: [
+            {
+                title: "Proyecto de Asincronísmo",
+                school: "thePower",
+                link: "https://github.com/oscarzafra/Proyecto_Async_OscarZafraReche.git",
+                expedition: "2024",
+            }
+        ],
+    },
+
 }
+
+
 
 export default data;
